@@ -1,0 +1,28 @@
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+
+.container {
+  margin: 10px 40px;
+  width: 600px;
+  height: 502px;
+  position: absolute;
+}
+
+
+.Submit {
+  margin-top: 42px;
+  width: 177px;
+  height: 47px;
+  border-radius: 0px;
+  font-family: Arial;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  outline: none;
+  background-color: #999999;
+}

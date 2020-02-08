@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import RandomizerReducer from './reducer_randomizer'
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  randomizer: RandomizerReducer
 });
 
 export default rootReducer;
